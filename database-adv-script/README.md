@@ -19,3 +19,9 @@ This project demonstrates mastery of SQL joins by writing complex queries using 
    - Retrieves all users and all bookings, even if there is no matching record between them.
    - A workaround is provided for MySQL (which does not support FULL OUTER JOIN natively).
 
+   ## Subqueries
+
+- Used a subquery to find properties with avg rating > 4.0
+- Used a correlated subquery to find users with more than 3 bookings
+
+
