@@ -25,3 +25,12 @@ This project demonstrates mastery of SQL joins by writing complex queries using 
 - Used a correlated subquery to find users with more than 3 bookings
 
 
+## Aggregations and Window Functions
+
+### 1. Total Bookings per User
+Used the `COUNT` function with `GROUP BY` to find the total number of bookings each user has made.  
+Example query counts bookings grouped by user and orders the list by the number of bookings in descending order.
+
+### 2. Rank Properties by Total Bookings
+Used the `RANK()` window function to rank properties based on how many bookings they received.  
+Properties with the same number of bookings get the same rank, and the list is ordered by rank.
